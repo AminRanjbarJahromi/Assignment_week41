@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072e5b94-6d7d-4830-bf9b-72765095d069" name="Changes" comment="use methods instead on direct cof in main">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CentralPrecess.java" afterDir="false" />
+    <list default="true" id="072e5b94-6d7d-4830-bf9b-72765095d069" name="Changes" comment="improve method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CentralPrecess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CentralPrecess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Modules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Modules.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.CentralProcess">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="Assignment_week41" />
@@ -76,8 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CentralProcess" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.CentralProcess" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665779498558</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="improve method">
+      <created>1665952763508</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665952763509</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,7 +149,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start to creat modules" />
     <MESSAGE value="improve algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve algorithm" />
+    <MESSAGE value="improve method" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve method" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Assignment_week41$App.ic" NAME="App Coverage Results" MODIFIED="1665947967858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

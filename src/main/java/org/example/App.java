@@ -8,16 +8,16 @@ public class App {
         while (true) {
 
             Scanner scanner = new Scanner(System.in);
-            System.out.println(" Enter your number: ");
+            Modules.displayMenu();
             double n1 = scanner.nextInt();
-            System.out.println("Enter your operation type: + , - , * , /");
+            Modules.displayMenu1();
             char operationType = scanner.next().charAt(0);
-            System.out.println(" Enter your number: ");
+            Modules.displayMenu();
             double n2 = scanner.nextInt();
             switch (operationType) {
                 case '+':
-                    double res = n1 + n2;
-                    System.out.println(n1 + " + " + n2 + " = " + res);
+                 Modules.addition(n1,n2);
+                    System.out.println(n1 + " + " + n2 + " = "+ Modules.addition(n1,n2));
                     break;
                 case '-':
                     double res1 = n1 - n2;
