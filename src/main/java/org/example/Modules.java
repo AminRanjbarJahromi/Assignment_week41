@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Modules {
     public static double addition (double n1, double n2 ){
 
@@ -28,9 +30,6 @@ public class Modules {
     public static void displayMenu1 (){
         System.out.println("Please Enter Your Operation : ( + , - , * , / )" );
     }
-
-
-
 
 
 
